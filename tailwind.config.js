@@ -8,7 +8,13 @@ module.exports = {
     './index.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        mycolor:{
+          300:"D5D5D5"
+        }
+      }
+    },
   },
   plugins: [],
 }
